@@ -1,0 +1,14 @@
+{
+  "presets":  ["es2015", "stage-1", "react"],
+  "plugins":  [
+    ["oxygen-styles", {
+      "vendorPrefixes": true,
+      "compressClassNames": true,
+      "bundleFile": "lib/bundle.css"
+      }
+    ],
+    ["transform-export-extensions"],
+    ["transform-class-properties"],
+    ["transform-object-rest-spread"]
+    ]
+}

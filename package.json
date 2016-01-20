@@ -1,0 +1,38 @@
+{
+  "name": "oxygen-md-svg-icons",
+  "version": "1.0.0",
+  "description": "Material Design Icons",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src --out-dir ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TriOxygen/oxygen-md-svg-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TriOxygen/oxygen-md-svg-icons/issues"
+  },
+  "homepage": "https://github.com/TriOxygen/oxygen-md-svg-icons#readme",
+    "engines": {
+    "node": ">=0.12"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-cli": "^6.4.0",
+    "babel-core": "^6.3.21",
+    "babel-plugin-oxygen-styles": "^0.9.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-export-extensions": "^6.3.13",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-1": "^6.3.13"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.3"
+  }
+}
