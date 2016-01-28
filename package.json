@@ -15,7 +15,7 @@
     "url": "https://github.com/TriOxygen/oxygen-md-svg-icons/issues"
   },
   "homepage": "https://github.com/TriOxygen/oxygen-md-svg-icons#readme",
-    "engines": {
+  "engines": {
     "node": ">=0.12"
   },
   "devDependencies": {
@@ -33,6 +33,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-oxygen-css": "git+https://github.com/TriOxygen/babel-plugin-oxygen-css.git",
     "react": "^0.14.3"
   }
 }

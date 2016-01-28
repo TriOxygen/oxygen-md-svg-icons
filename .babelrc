@@ -1,8 +1,9 @@
 {
   "presets":  ["es2015", "stage-1", "react"],
   "plugins":  [
-    ["oxygen-styles", {
+    ["oxygen-css", {
       "vendorPrefixes": true,
+      "prefix": "oi",
       "compressClassNames": true,
       "bundleFile": "lib/bundle.css"
       }
