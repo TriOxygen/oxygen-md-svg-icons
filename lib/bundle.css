@@ -1,4 +1,4 @@
-.oi_1 {
+.oi_a {
   display: inline-block;
   height: 24px;
   width: 24px;
@@ -11,6 +11,6 @@
   vertical-align: middle;
   fill: currentColor;
 }
-.oi_2 {
+.oi_b {
   display: block;
 }
