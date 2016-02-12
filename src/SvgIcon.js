@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import classNames from 'classnames';
 
-const styles = oxygenStyle({
+const styles = oxygenCss({
   icon: {
     display: 'inline-block',
     height: 24,
