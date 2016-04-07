@@ -17,10 +17,9 @@ const styles = oxygenCss({
 });
 
 class SvgIcon extends Component {
-  static displayName = 'SvgIcon';
-
   static propTypes = {
     children: PropTypes.node,
+    className: PropTypes.string,
     style: PropTypes.object,
     viewBox: PropTypes.string,
     block: PropTypes.bool
@@ -40,6 +39,7 @@ class SvgIcon extends Component {
 
   render() {
     const {
+      className,
       block,
       children,
       viewBox,
@@ -47,7 +47,7 @@ class SvgIcon extends Component {
     } = this.props;
 
 
-    const classes = classNames(styles.icon, {
+    const classes = classNames(styles.icon, className, {
       [styles.block]: block
     })
 
