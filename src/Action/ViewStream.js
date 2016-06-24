@@ -1,12 +1,10 @@
 import React from 'react';
 import SvgIcon from '../SvgIcon';
 
-let ActionViewStream = (props) => (
+const ActionViewStream = ({ props }) => {
   <SvgIcon {...props}>
     <path d="M4 18h17v-6H4v6zM4 5v6h17V5H4z"/>
   </SvgIcon>
-);
-ActionViewStream.displayName = 'ActionViewStream';
+};
 
 export default ActionViewStream;
-
