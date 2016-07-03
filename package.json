@@ -1,11 +1,12 @@
 {
   "name": "oxygen-md-svg-icons",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "Material Design Icons",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel ./src --out-dir ./lib"
+    "build": "babel ./src --out-dir ./lib",
+    "deploy": "npm run build ; npm publish"
   },
   "repository": {
     "type": "git",
