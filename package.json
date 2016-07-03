@@ -1,6 +1,6 @@
 {
   "name": "oxygen-md-svg-icons",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Material Design Icons",
   "main": "lib/index.js",
   "scripts": {
